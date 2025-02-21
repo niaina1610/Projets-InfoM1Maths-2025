@@ -16,6 +16,7 @@ pgcd() {
 }
 # Calcul du temps d'execution
 start_time=$(date +%s%N)
+# Appel du fonction pgcd pour a et b
 result=$(pgcd $a $b)
 end_time=$(date +%s%N)
 # Calcul du temps écoulé en nanosecondes
